@@ -1,0 +1,55 @@
+.outerContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+};
+
+.messageContainer {
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+    flex: 0.3;
+    justify-content: center;
+    align-items: center;
+}
+
+.topImage {
+    width: 60%;
+}
+
+.greeting {
+ font-size: 3rem;
+ font-family: roboto, sans-serif;
+ font-weight: 500;
+ color: #DB6AF7;
+ margin: 0;
+}
+
+.homeMessage {
+    font-size: 1rem;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    color: #6F6AF8;
+}
+
+.clickMeMessage {
+    font-size: 1rem;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    color: #727272;
+}
+
+.link {
+    font-size: 1rem;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    color: #DB6AF7;
+    text-decoration: none;
+}
